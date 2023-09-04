@@ -1,0 +1,30 @@
+#leaders {
+	display: grid;
+	grid-template-areas:
+		'title title'
+		'tyler_profile_grid shaam_profile_grid';
+}
+
+#leaders h1 {
+	grid-area: title;
+	font-size: 	4vh;
+	width: 100%;
+	text-align: center;
+}
+
+.leader_profile {
+	font-size: 	6vh;
+	text-align: center;
+}
+
+.leader_profile img {
+	max-height: 30rem;
+}
+
+#tyler_profile {
+	grid-area: tyler_profile_grid;
+}
+
+#shaam_profile {
+	grid-area: shaam_profile_grid;
+}

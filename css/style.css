@@ -15,60 +15,38 @@ body {
 #header {
 	padding-right: 10%;
 	padding-left: 10%;
-	background-color: #00bfd3;
+	background-color: #545454;
 }
+
 
 #navbar {
 	display: grid;
 	grid-template-areas:
-		'logo menu';
+		'logo spacer home about next-year past-trips';
 }
 
-#menu_button {
-	grid-area: menu;
+#logo {
+	grid-area: logo;
+	max-height: 6rem;
+	margin: auto;
+	margin-left: 0;
+}
+
+#logo img {
+	max-height: 6rem;
+}
+
+.pages {
+	color: #FDB515;
+	text-decoration: none;
+	font-size: 2rem;
 	margin: auto;
 	margin-right: 0;
 }
 
-#menu_button img {
-	max-height: 2rem;
-	border-radius: 	10px;
-}
-
-#menu {
-	display: none;
-	width: 20rem;
-	position: absolute;
-	top: 6rem;
-	right: 10%;
-}
-
-.drop-menu {
-	background-color: #def;
-	width: 100%;
-	min-height: 4rem;
-	border-style: solid;
-	border-color: #034cb9;
-	border-width: 	2px;
-	text-decoration: none;
-	display: grid;
-	grid-template-areas:
-		'arrow label';
-}
-
-.drop-menu p {
-	color: #034cb9;
-	font-size: 2rem;
-	padding-top: 1rem;
-}
-
-.menu-arrow {
-	grid-area: arrow;
-}
-
-.pages {
-	grid-area: label;
-	text-align: right;
+#spacer {
+	grid-area: spacer;
+	min-width: 15rem;
 }
 
 #home-button {
@@ -79,189 +57,10 @@ body {
 	grid-area: about;
 }
 
-#search-rides-button {
-	grid-area: search-rides;
+#next-year-button {
+	grid-area: next-year;
 }
 
-#my-rides-button {
-	grid-area: my-rides;
-}
-
-#navbar2 {
-	display: none;
-}
-
-#logo2 {
-	grid-area: logo;
-	max-height: 6rem;
-	margin: auto;
-	margin-left: 0;
-}
-
-#spacer {
-	grid-area: spacer;
-	min-width: 15rem;
-}
-
-#home-button2 {
-	grid-area: home2;
-}
-
-#about-button2 {
-	grid-area: about2;
-}
-
-#search-rides-button2 {
-	grid-area: search-rides2;
-}
-
-#my-rides-button2 {
-	grid-area: my-rides2;
-}
-
-.pages2 {
-	color: #034cb9;
-	text-decoration: none;
-	font-size: 2rem;
-	margin: auto;
-	margin-right: 0;
-}
-
-#logo2 img {
-	max-height: 6rem;
-}
-
-@media screen and (min-width: 62rem) {
-	#navbar2 {
-		display: grid;
-		grid-template-areas:
-			'logo spacer home2 about2 search-rides2 my-rides2';
-	}
-
-	#navbar {
-		display: none;
-	}
-
-	#menu {
-		display: none;
-	}
-}
-
-
-
-
-
-/*
-#navbar {
-	max-height: 6rem;
-	background-color: #00bfd3;
-	padding-right: 20%;
-	padding-left: 20%;
-	list-style: none;
-}
-
-@media screen and (min-width: 58em) {
-	#navbar {
-		background-color: #000000;
-	}
-}
-
-#navbar li{
-	max-height: 8rem;
-	display: inline;
-}
-
-#navbar a{
-	max-height: 100%;
-}
-
-.pages {
-	color: #034cb9;
-	text-decoration: none;
-	font-size: 2vh;
-	margin-left:8%;
-	float: right;
-	margin-top: 4vh;
-}
-
-#logo{
-	max-height: 8rem;
-}
-*/
-
-.button {
-	border-radius: 	10px;
-	background-color: #def;
-	border-style: solid;
-	border-color: #034cb9;
-	border-width: 	2px;
-	height: 4vh;
-}
-
-.button:hover {
-	opacity: 0.5;
-	cursor: pointer;
-}
-
-.footer {
-	background-color: #00bfd3;
-	position: 	relative;
-	height: 5%;
-}
-
-.footer h1 {
-	position: 	absolute;
-	left: 25%;
-	top: 50%;
-	font-size: 2vh;
-	transform: 	translate(0%,-50%);
-}
-
-.footer ul {
-	list-style: none;
-	height: 50%;
-	width: 100%;
-	position: absolute;
-	left: 0%;
-	top: 0%;
-	text-align: center;
-	transform: translate(0%,50%);
-}
-
-.footer li {
-	display: inline;
-	height: 100%;
-	padding-left: 1%;
-	padding-right: 1%;
-}
-
-.footer li a {
-	height: 100%;
-}
-
-.footer li a img {
-	height: 100%;
-}
-
-/*
-.footer img {
-	position: 	absolute;
-	height: 100%;
-	left:50%;
-	top: 0%;
-	transform: 	translate(-50%,0%);
-}
-*/
-
-.footer h2 {
-	position: 	absolute;
-	right: 25%;
-	top: 50%;
-	font-size: 2vh;
-	transform: 	translate(0%,-50%);
-}
-
-.footer h2 a {
-	text-decoration: none;
-	color: black;
+#past-trips-button {
+	grid-area: past-trips;
 }
