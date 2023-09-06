@@ -28,3 +28,27 @@
 #shaam_profile {
 	grid-area: shaam_profile_grid;
 }
+
+#story {
+	text-align: center;
+}
+
+#story h1 {
+	font-size: 4vh;
+}
+
+#story p {
+	font-size: 3vh;
+}
+
+#future {
+	text-align: center;
+}
+
+#future h1 {
+	font-size: 4vh;
+}
+
+#future p {
+	font-size: 3vh;
+}

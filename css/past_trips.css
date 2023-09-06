@@ -1,0 +1,99 @@
+#photos_grid {
+	display: grid;
+	grid-template-areas:
+		'photos_2023_grid photos_2022_grid photos_2021_grid'
+		'photos_2020_grid photos_2019_grid photos_2017_grid';
+}
+
+.photos {
+	display: grid;
+	grid-template-areas:
+		'photo'
+		'link';
+}
+
+.image {
+	grid-area: photo;
+}
+
+.link {
+	grid-area: link;
+}
+
+#photos_2023 {
+	grid-area: photos_2023_grid;
+	text-align: center;
+}
+
+#photos_2023 a img {
+	max-height: 30rem;
+}
+
+#photos_2023 a {
+	font-size: 	4vh;
+}
+
+#photos_2022 {
+	grid-area: photos_2022_grid;
+	text-align: center;
+}
+
+#photos_2022 a img {
+	max-height: 30rem;
+}
+
+#photos_2022 a {
+	font-size: 	4vh;
+}
+
+#photos_2021 {
+	grid-area: photos_2021_grid;
+	text-align: center;
+}
+
+#photos_2021 a img {
+	max-height: 30rem;
+}
+
+#photos_2021 a {
+	font-size: 	4vh;
+}
+
+#photos_2020 {
+	grid-area: photos_2020_grid;
+	text-align: center;
+}
+
+#photos_2020 a img {
+	max-height: 30rem;
+}
+
+#photos_2020 a {
+	font-size: 	4vh;
+}
+
+#photos_2019 {
+	grid-area: photos_2019_grid;
+	text-align: center;
+}
+
+#photos_2019 a img {
+	max-height: 30rem;
+}
+
+#photos_2019 a {
+	font-size: 	4vh;
+}
+
+#photos_2017 {
+	grid-area: photos_2017_grid;
+	text-align: center;
+}
+
+#photos_2017 a img {
+	max-height: 30rem;
+}
+
+#photos_2017 a {
+	font-size: 	4vh;
+}
