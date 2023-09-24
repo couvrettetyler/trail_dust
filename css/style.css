@@ -10,6 +10,7 @@ html {
 
 body {
 	width: 100%;
+	background-color: #545454;
 }
 
 #header {
@@ -18,6 +19,10 @@ body {
 	background-color: #545454;
 }
 
+#header-break {
+	 background-color: #000000;
+	 height: 10px;
+}
 
 #navbar {
 	display: grid;
