@@ -2,46 +2,78 @@
 <html>
 	<head>
 		<title>Trail Dust</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/about.css">
 	</head>
 	<body>
-		<div id="header">
-			<div id='navbar'>
-				<a id="logo" href="./index.html"><img src="images/logo.png"></a>
-				<div id="spacer"></div>
-				<a id="home-button" class="pages" href="./index.html">Home</a>
-				<a id="about-button" class="pages" href="./about.html">About</a>
-				<a id="next-year-button" class="pages" href="./2024.html">2024</a>
-				<a id="past-trips-button" class="pages" href="./past_trips.html">Past Trips</a>
+		<nav class="navbar navbar-light bg-light">
+			<a class="navbar-brand" href="./index.html">
+				<img src="images/logo.png" width="30" height="30" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>
 			</div>
-		</div>
+		</nav>
 
-		<div id="leaders">
-			<h1>The Leaders</h1>
-			<div class="leader_profile" id="tyler_profile">
-				<img src="./images/tyler.JPG">
-				<h2>Tyler</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center"><h1>The Leaders</h1></div>
 			</div>
-			<div class="leader_profile" id="shaam_profile">
-				<img src="./images/shaam.jpg">
-				<h2>Shaam</h2>
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<div class="card border-0">
+						<img src="./images/tyler.JPG" class="card-img-top">
+						<div class="card-body">
+							<h2 class="card-title text-center">Tyler</h2>
+							<p class="card-text">Hi! My name is Tyler</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card border-0">
+						<img src="./images/shaam.jpg" class="card-img-top">
+						<div class="card-body">
+							<h2 class="card-title text-center">Shaam</h2>
+							<p class="card-text">Hello! My name is Shaam</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
 			</div>
-		</div>
 
-		<br>
+			<div class="row my-5">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h1 class="text-center">The Story</h1>
+					<img src="./images/story.jpg">
+					<p class="text-center">We like hiking!</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
 
-		<div id="story">
-			<h1>The Story</h1>
-			<img src="./images/story.jpg">
-			<p>We like hiking!</p>
-		</div>
-
-		<br>
-		
-		<div id="future">
-			<h1>The Future</h1>
-			<p>We plan to continue to like hiking.</p>
+			<div class="row my-5">
+				<h1 class="text-center">The Future</h1>
+				<p class="text-center">We plan to continue to like hiking.</p>
+			</div>
 		</div>
 
 	</body>
