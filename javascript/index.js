@@ -3,7 +3,7 @@ var images = [];
 var time = 3000;
 
 images[0] = './images/2023_group.jpg';
-images[1] = './images/2022_group.jpg';
+images[1] = './images/2022_group.JPG';
 images[2] = './images/2021_group.png';
 images[3] = './images/2020_group.jpg';
 images[4] = './images/2019_group.jpg';
