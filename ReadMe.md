@@ -1,0 +1,1 @@
+To view the files as you edit them, run the server batch file. This requires a python installation. Then, type in localhost:8000 into your browser
