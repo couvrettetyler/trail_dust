@@ -1,3 +1,13 @@
 #navbar-logo {
     max-height: 6rem;
 }
+
+.my-font{
+    font-size: 1.25rem;
+}
+
+@media (max-width: 991.9px) {
+    .my-font{
+        font-size: 3rem;
+    }
+}
